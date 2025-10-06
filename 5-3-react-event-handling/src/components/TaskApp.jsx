@@ -31,6 +31,7 @@ export default function TaskApp() {
           // TODO: value={text}
           value={text}
           // TODO: onChange={(e) => setText(e.target.value)}
+          onChange={(e) => setText(e.target.value)}
           onKeyDown={(e) => {
             if (e.key === "Enter") handleSubmit();
           }}
