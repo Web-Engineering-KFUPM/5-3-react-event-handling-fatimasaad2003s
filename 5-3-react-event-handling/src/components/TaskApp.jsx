@@ -45,6 +45,8 @@ export default function TaskApp() {
           Submit
         </button>
       </div>
+       <p>{text}</p>  
+
 
       {/*Render Task List and Enable Delete */}
       {/*Pass tasks and onDelete */}
